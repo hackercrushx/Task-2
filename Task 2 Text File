@@ -1,0 +1,29 @@
+✅ Phishing Email Analysis Report (Task 2)
+📄 Sample Phishing Email Summary
+Sender Name: Microsoft 365 Support
+
+Sender Email: support@office-365-notifications[.]com
+
+Subject: Microsoft account security alert
+
+To: john[.]doe@mybusiness[.]com
+
+Body Highlights: Urgent alert, warning about account compromise, prompts to click a button to “Recover account.”
+
+🔍 Phishing Indicators Identified
+Indicator	Description
+1. Spoofed Email Address: The domain office-365-notifications[.]com is made to appear like a real Microsoft domain but is not legitimate. Microsoft would use something like microsoft.com or microsoft365.com.
+2. Urgent/Threatening Language: Words like "Security Alert," and "Failure to do so will result in suspension" are common social engineering tactics to rush the victim into clicking.
+3. Suspicious Link: The "Recover account" button likely leads to a phishing page (not shown, but assumed from the simulation). Hovering would reveal a non-Microsoft URL.
+4. Generic Greeting: “Dear User” or just directly starts with body text — no personalization, which is typical in phishing.
+5. Spelling/Grammar Issues: While this email is mostly clean, some formatting and spacing are off (e.g., odd spacing in email address, unnatural sentence structure).
+6. Social Engineering: Use Plays on fear of losing access to Microsoft account to trick the user into clicking the malicious link.
+7. Unverifiable Domain: office-365-notifications.com is not a verified Microsoft domain — checking via WHOIS or Google shows it’s unrelated.
+8. No Digital Signature: Real Microsoft alerts often include authentication indicators (SPF, DKIM, DMARC, signed email badges) — not present in this simulation.
+
+🛠 Tools You Can Use
+Header Analysis: MxToolbox, Google Admin Toolbox
+
+Link Inspection: Hover link → right-click → Copy link → check at VirusTotal
+
+WHOIS Domain Check: Whois.domaintools.com
